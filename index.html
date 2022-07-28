@@ -56,7 +56,7 @@
                 <a class="nav-link" href="#">Follow</a>
               </li>
             </ul>
-            <div class="register-btn">
+            <div class="register-btn position-relative d-lg-block d-md-none">
               <a href="" class="btn border border-info text-info fw-bold"
                 >Register</a
               >
@@ -155,7 +155,7 @@
             <div class="row g-3">
               <div class="col-lg-6 col-md-12 d-flex">
                 <div class="course-img w-25 me-5">
-                  <img src="images/course/course-1.png" alt="" />
+                  <img  src="images/course/course-1.png" alt="" />
                 </div>
                 <div class="course-info text-start ms-5 mt-4">
                   <h5>Fundamental Of UI/UX Design</h5>
@@ -232,16 +232,24 @@
                 </div>
               </div>
             </div>
+            <button
+              class="btn btn-info text-white my-5 d-lg-none d-md-block mx-auto"
+            >
+              View All
+            </button>
           </div>
         </div>
       </section>
       <!-- courses section ends here -->
-      <button href="" class="btn btn-info text-white mx-auto d-block mb-5">
+      <button
+        href=""
+        class="btn btn-info text-white mx-auto d-lg-block d-md-none d-sm-none mb-5"
+      >
         See More Courses
       </button>
       <!-- joining section starts here -->
       <section
-        class="d-flex justify-content-between align-items-center joining container bg-info border rounded p-5 mb-5"
+        class="d-flex justify-content-between align-items-center joining container bg-info border rounded p-5 mb-5 flex-lg-row flex-md-column flex-sm-column text-lg-start text-md-center text-sm-center"
       >
         <div class="joining-info text-white w-50">
           <h2>Ready to join?</h2>
@@ -250,9 +258,6 @@
             the readable content of a page when looking at its layout.
           </p>
         </div>
-        <!-- <div class="joining-button">
-          <a href="" class="btn btn-light text-info">Register Now</a>
-        </div> -->
 
         <button
           type="button"
@@ -442,8 +447,9 @@
         </div>
       </section>
       <!-- FAQ section ends here -->
+
       <!-- companies section starts here -->
-      <section class="companies container">
+      <section class="companies container d-lg-block d-md-none d-sm-none">
         <h2 class="text-center">Trusted by over 800+ companies</h2>
         <ul
           class="list-unstyled d-flex align-items-center justify-content-between mt-4"
