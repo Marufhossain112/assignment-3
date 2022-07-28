@@ -1,7 +1,7 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
 
-.register-btn{
+.register-btn {
   left: 11rem;
 }
 
@@ -45,14 +45,22 @@ body {
 
 /* media query */
 /* mobile device */
-@media screen and (min-width:576px) and (max-width:768px) {
-  .faq-header{
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  .faq-header {
     width: 100% !important;
+  }
+  .course-img img {
+    width: 380px;
+    margin-left: 4rem;
+    height: 250px;
+  }
+  .course-info{
+    margin-left: 4rem !important;
   }
 }
 /* tablet device */
-@media screen and (min-width:769px) and (max-width:991px) {
-  .faq-header{
+@media screen and (min-width: 769px) and (max-width: 991px) {
+  .faq-header {
     width: 100% !important;
   }
 }
