@@ -44,6 +44,25 @@ body {
 }
 
 /* media query */
+
+/* small mobile device */
+@media screen and (min-width:320px) and (max-width:575px) {
+  .faq-header {
+    width: 100% !important;
+  }
+
+  .course-img img {
+    width: 315px;
+    margin-left: 0rem;
+    height: 210px;
+  }
+  .course-info{
+    margin-left: 0rem !important;
+  }
+
+}
+
+
 /* mobile device */
 @media screen and (min-width: 576px) and (max-width: 768px) {
   .faq-header {
